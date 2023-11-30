@@ -28,7 +28,8 @@ navigation:
     url: /archive
   - name: tags
     url: /tags
-
+  - name: projects
+    url: /
 # 几条博客后分页
 paginate: 6
 
