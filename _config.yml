@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: "wudao's blog"
+name: "zheyuan's blog"
 # Short bio or description (displayed in the header)
 description: "the climb is all there is"
 
@@ -24,9 +24,9 @@ navigation:
     url: /
   - name: About
     url: /about
-  - name: Aechives
+  - name: Archives
     url: /archive
-  - name: books
+  - name: tags
     url: /tags
 
 # Pagination
