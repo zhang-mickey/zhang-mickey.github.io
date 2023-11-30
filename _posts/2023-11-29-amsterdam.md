@@ -21,7 +21,9 @@ author: zhang
 ## WLAN 802.11 --(Bianchi model)
 The general step:  
 A station with a new packet to transmit monitors the channel activity. If the channel is idle for a period of time equal to a distributed interframe space(DIFS),the station transmits.  
-At this point, the station generates a `random` backoff interval before transmitting. At each packet transmission,the backoff time is uniformly chosen in the range $(0,w-1) $
+At this point, the station generates a `random` backoff interval before transmitting. At each packet transmission,the backoff time is uniformly chosen in the range $(0,w-1)$. The value $w$ is called **contention windows**.  
+- contention windows
+At the first attempt,$w$ is set equal to value $CW_min$. After each unsuccessful transmission, $w$ is doubled,up to a maximum value$CW_max=x^m{CW}_min$
 ### distributed coordination function (DCF)
 the fundamental mechanism to access the medium is called distributed coordination function. This is a random access scheme,based on the carrier sense multiple access with collided avoidance(CSMA/CA).
 
@@ -36,11 +38,6 @@ Since collision may occur only on the RTS frame, and it is detected by the lack 
 
 
   
-
-## 建立博客Git仓库
-
-
-
 ###  配置gitalk
 
 这个是评论功能的配置。评论功能基于gitalk，在配置文件中找到gitalk配置项目：
