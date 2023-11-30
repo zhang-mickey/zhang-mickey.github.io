@@ -20,7 +20,7 @@ favicon: https://github.com/zhang-mickey/zhang-mickey.github.io/blob/main/wizzar
 # and URL Link(e.g. 'Theme' tab below) tabs. If you don't need one, just delete
 # it from the list(Delete '- name: ' and 'url: ', too!)
 navigation:
-  - name: 首页
+  - name: back
     url: /
   - name: Aboutme
     url: /about
