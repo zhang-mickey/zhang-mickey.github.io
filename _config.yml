@@ -22,11 +22,11 @@ favicon: https://github.com/lemonchann/lemonchann.github.io/raw/master/images/fa
 navigation:
   - name: 首页
     url: /
-  - name: 关于
+  - name: About
     url: /about
-  - name: 归档
+  - name: Aechives
     url: /archive
-  - name: 标签
+  - name: books
     url: /tags
 
 # Pagination
@@ -39,13 +39,10 @@ footer-links:
   behance: # https://www.behance.net/<username>
   dribbble:
   email: mickeyzhangzy@outlook.com
-  facebook:
-  flickr:
   github: zhang-mickey
   googleplus: # anything in your profile username that comes after plus.google.com/
   instagram:
-  linkedin:
-  pinterest:
+  linkedin: https://www.linkedin.com/in/zheyuan-zhang-4b507a286?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
   rss: # just type anything here for a working RSS icon
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   tumblr: # https://<username>.tumblr.com
@@ -53,7 +50,7 @@ footer-links:
   youtube:
 
 # Text under the icons in footer
-footer-text: Copyright (c) 2023 zheyuan
+footer-text: Copyright (c) 2023 ♥zheyuan♥
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
@@ -61,17 +58,17 @@ disqus: # fromendworld
 
 # Gitalk
 gitalk:
-  clientID: bd65d5c0df878155b7fa
+  clientID: bd65d5c0
   clientSecret: d0220762c05c2d6b6f6152a0f0e4b6b090de9729
-  repo: lemonchann.github.io
-  owner: lemonchann
+  repo: zhang.mickey.github.io
+  owner: zhang
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 #google_analytics: 
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: https://lemonchann.github.io
+url: https://zhang.mickey.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
