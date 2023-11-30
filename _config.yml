@@ -29,8 +29,8 @@ navigation:
   - name: tags
     url: /tags
 
-# Pagination
-paginate: 1
+# 几条博客后分页
+paginate: 6
 
 excerpt_separator: <!-- more -->
 
