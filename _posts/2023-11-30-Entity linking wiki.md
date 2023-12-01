@@ -15,3 +15,8 @@ main approaches
 - Based on Search engine
 submit the entity mention together with its short context to the Google API and obtained only Web pages within Wikipedia to regard them as candidate entities.
 # Candidate entity ranking
+
+
+
+
+https://blog.csdn.net/qq_38293297/article/details/105918074
