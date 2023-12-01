@@ -38,6 +38,15 @@ DCF describes two techniques to employ for packet transmission.
 Before transmitting a packet, a station operating in RTS/CTS mode`reserves` the channel by sending a special Request-To-Sent short frame. The destination station acknowledges the receipt of an RTS frame by sending back a Clear-To-Send frame,after which normal packet transmission and ACK response ouucrs.
 Since collision may occur only on the RTS frame, and it is detected by the lack of CTS response
 `benefit`:Increase the system performance by reducing the duration of a collision when long messages are transmitted. 
+### SINR信干燥比
+SINR is commonly used in wireless communication as a way to measure the quality of wireless connection
+
+ ## UMTS
+parallel transmissions
+
+## HSDPA
+
+ ## Long- Term Evolution
 
  
 
