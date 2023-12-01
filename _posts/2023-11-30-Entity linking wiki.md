@@ -18,5 +18,8 @@ submit the entity mention together with its short context to the Google API and 
 
 
 
+# 库
+urllib
+urllib.request : 模拟浏览器的一个请求发起过程
 
 https://blog.csdn.net/qq_38293297/article/details/105918074
