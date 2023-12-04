@@ -14,8 +14,10 @@ linear programs are solvable in polynomial time
 ## standard form
 <img width="538" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/4327ded7-082c-4aaa-9bb1-b376cd1a8391">
 
+## Maximum Flow
+<img width="379" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/0f60fffc-b9b2-40c3-971f-ef4334c90ae2">
 
-# Vertex Cover
+## Vertex Cover
 <img width="557" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/296871a2-dd32-4fa4-bb52-ba66aa3bf57b">
 
 ## ILP for vertex cover
@@ -24,9 +26,9 @@ linear programs are solvable in polynomial time
 ## LP relaxation
 <img width="567" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/b8a33d9c-f443-4cca-b3db-0a03154df990">
 
+## knapsack problem
+<img width="571" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/e2aa6da7-7387-4c16-9981-8eb28153b2a5">
 
-https://tcs.nju.edu.cn/wiki/index.php?title=%E9%AB%98%E7%BA%A7%E7%AE%97%E6%B3%95_(Fall_2022)  
-http://tcs.nju.edu.cn/slides/aa2022/DP.pdf
 
 ## LP duality
 The dual of the dual of a linear program is the linear program itself  
@@ -36,3 +38,8 @@ The dual of the dual of a linear program is the linear program itself
 
 ### Strong Duality
 <img width="463" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/bde10e90-3e6a-4544-ac60-00aa2f6e124e">
+
+
+
+https://tcs.nju.edu.cn/wiki/index.php?title=%E9%AB%98%E7%BA%A7%E7%AE%97%E6%B3%95_(Fall_2022)  
+http://tcs.nju.edu.cn/slides/aa2022/DP.pdf
