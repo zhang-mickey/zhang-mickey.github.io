@@ -23,3 +23,7 @@ linear programs are solvable in polynomial time
 
 ## LP relaxation
 <img width="567" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/b8a33d9c-f443-4cca-b3db-0a03154df990">
+
+
+https://tcs.nju.edu.cn/wiki/index.php?title=%E9%AB%98%E7%BA%A7%E7%AE%97%E6%B3%95_(Fall_2022)  
+http://tcs.nju.edu.cn/slides/aa2022/DP.pdf
