@@ -1,7 +1,7 @@
 ---
 layout: post
 title: " linear algorithm"
-date:   2020-09-17
+date:   2023-12-01
 tags: [network]
 comments: true
 author: zhang
