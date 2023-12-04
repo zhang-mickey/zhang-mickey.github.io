@@ -27,3 +27,12 @@ linear programs are solvable in polynomial time
 
 https://tcs.nju.edu.cn/wiki/index.php?title=%E9%AB%98%E7%BA%A7%E7%AE%97%E6%B3%95_(Fall_2022)  
 http://tcs.nju.edu.cn/slides/aa2022/DP.pdf
+
+## LP duality
+The dual of the dual of a linear program is the linear program itself  
+
+### Weak Duality 
+<img width="452" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/8498ea5a-dfca-4221-81fa-db437ab2741e">
+
+### Strong Duality
+<img width="463" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/bde10e90-3e6a-4544-ac60-00aa2f6e124e">
