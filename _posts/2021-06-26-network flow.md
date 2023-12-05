@@ -12,3 +12,5 @@ author: zhang
 ### max-flow min-cut theorem
 the maximum amount of flow passing from the source to the sink is equal to the total weight of the edges in a minimum cut  
 This is a special case of the duality theorem for linear programs   
+
+### Ford-Fulkerson 
