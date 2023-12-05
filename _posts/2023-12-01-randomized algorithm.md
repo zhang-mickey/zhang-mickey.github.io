@@ -16,6 +16,7 @@ In the following figure, contracting the edges in the specified order, will find
 case, we were lucky and did not contract the edges that were in the min-cut  
 <img width="653" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/eac9451f-ad74-46cb-89e5-9540453ef666">   
 
+The contraction algorithm returns a min cut with prob >=2/$n^2$  
 IF we repeat the contraction algorithm $n^2$ln$n$ times,then the probability of failing to find the global min-cut is <1/$n^2$
 
 
