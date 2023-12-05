@@ -42,20 +42,34 @@ Since collision may occur only on the RTS frame, and it is detected by the lack 
 `benefit`:Increase the system performance by reducing the duration of a collision when long messages are transmitted. 
 ### SINR信干燥比
 SINR is commonly used in wireless communication as a way to measure the quality of wireless connection
-### channel quality indicator
-很多MIMO技术 需要用到信道质量指示器来反馈信道特征给发射器，用以调整发射天线的数据速率，实现自适应调制
+
 ### Multipath fading
+On a small time scale,multiple copies of a given signal may strengthen or weaken one another   
+These different copies have different path lengths,hence,they arrive with different phases at the receiver.  
+
 
 
  ## UMTS
 parallel transmissions
 
 ## HSDPA
+### channel quality indicator
+很多MIMO技术 需要用到信道质量指示器来反馈信道特征给发射器，用以调整发射天线的数据速率，实现自适应调制
 
  ## Long- Term Evolution
 ### OFDMA
 
  ### MIMO
  多径衰落是影响通信质量的主要因素，但MIMO系统能有效利用多径的影响来提高系统容量
+
+### packet scheduling
+#### round robin
+#### Maximum SNR
+always serve flow with best SINR  
+#### Proportional Fairness
+
+
+
+
 
 
