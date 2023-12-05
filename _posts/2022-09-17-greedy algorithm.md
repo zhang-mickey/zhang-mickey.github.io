@@ -36,3 +36,6 @@ class Solution:
         return res + (X - Y)    #其余的差距，只能一个一个来
 
 ```
+
+### 不同整数的最少数目
+<img width="424" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/9d289a74-241b-4c73-86a3-2792b9b1897f">
