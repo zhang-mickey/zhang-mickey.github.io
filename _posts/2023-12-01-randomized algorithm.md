@@ -14,7 +14,7 @@ there is a polynomial time algorithm to find a global min-cut in an undirected g
 ### contraction algorithm(Karger)
 In the following figure, contracting the edges in the specified order, will find the min-cut. Note that in this
 case, we were lucky and did not contract the edges that were in the min-cut  
-<img width="653" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/eac9451f-ad74-46cb-89e5-9540453ef666">  
+<img width="653" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/eac9451f-ad74-46cb-89e5-9540453ef666">   
 
 IF we repeat the contraction algorithm $n^2$ln$n$ times,then the probability of failing to find the global min-cut is <1/$n^2$
 
