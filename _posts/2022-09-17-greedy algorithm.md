@@ -39,3 +39,7 @@ class Solution:
 
 ### 不同整数的最少数目
 <img width="424" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/9d289a74-241b-4c73-86a3-2792b9b1897f">
+
+### 灌溉花园的最少水龙头数目
+将水龙头的覆盖区域看做为一个小区间，本题即转换为求选择最少的区间数目可以覆盖连续区间  
+<img width="427" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/3e26244c-ceeb-420e-832e-3724948460ab">
