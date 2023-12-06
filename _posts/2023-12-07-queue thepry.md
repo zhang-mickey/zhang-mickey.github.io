@@ -1,12 +1,15 @@
 ---
 layout: post
-title: " queue theory
+title: " queue theory "
 date:   2023-12-07
 tags: [algorithm]
 comments: true
 author: zhang
 ---
+### discrete-time Bernoulli process
 
+### continuous-time Poisson process
+the inter-arrival times are independent and exponentially distributed with mean .
 
 ### Jackson Network
 In queueing networks,the output of one queue may be the input of another.  
