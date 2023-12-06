@@ -24,6 +24,10 @@ if X,Y independent exponential with parameters r1 and r2, then min{X,Y} exponent
 ### continuous-time Poisson process
 the inter-arrival times are independent and exponentially distributed with mean 1/r.
 
+### Processor sharing
+Flow-level behavior of TCP data transfers is often be modeled by PS model  
+**key performance metric**  
+mean sojourn time
 ### Jackson Network
 In queueing networks,the output of one queue may be the input of another.  
 In stready-state,the output process if M/M/1,M/M/k queue follows a Poisson process, because no traffic is lost in such queues,the arrival rate must be equal to the departure rate.   
