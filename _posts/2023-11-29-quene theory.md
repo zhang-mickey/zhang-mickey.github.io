@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Performance models of network"
+title: "quene theory."
 date:   2023-11-29
 tags: [network]
 comments: true
