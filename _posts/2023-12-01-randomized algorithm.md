@@ -1,8 +1,8 @@
 ---
 layout: post
 title: " randomized algorithm"
-date:   2023-12-01
-tags: [network]
+date:   2023-12-05
+tags: [algorithm]
 comments: true
 author: zhang
 ---
