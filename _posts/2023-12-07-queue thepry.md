@@ -6,6 +6,13 @@ tags: [algorithm]
 comments: true
 author: zhang
 ---
+为什么发明指数分布  
+### exponential distribution
+<img width="458" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/bd29ca4b-c634-4001-8c8c-65f842956768">  
+
+#### minimum property
+if X,Y independent exponential with parameters r1 and r2, then min{X,Y} exponential with parameter r1+r2.  
+
 ### discrete-time Bernoulli process
 
 ### continuous-time Poisson process
