@@ -13,10 +13,16 @@ author: zhang
 #### minimum property
 if X,Y independent exponential with parameters r1 and r2, then min{X,Y} exponential with parameter r1+r2.  
 
+### poisson process
+
+#### Superposition property
+
+#### Thinning-out property  
+
 ### discrete-time Bernoulli process
 
 ### continuous-time Poisson process
-the inter-arrival times are independent and exponentially distributed with mean .
+the inter-arrival times are independent and exponentially distributed with mean 1/r.
 
 ### Jackson Network
 In queueing networks,the output of one queue may be the input of another.  
