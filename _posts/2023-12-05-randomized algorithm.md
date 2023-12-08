@@ -61,6 +61,7 @@ the overall time complexity will be{O(n^2)}.
 O(nlog(n))<=complexity<=O(n^2)} This difference depends on the chosen pivot elements  
 <img width="341" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/39ea4fc4-fedb-4666-8341-25c285725f58">  
 
+### universal hashing  
 
 ## derandomization
 <img width="463" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/c3917f59-7e57-4583-846f-4f623aaeeb71">
