@@ -17,6 +17,8 @@ Finds solution that is within ratio p of optimum
 ### Greedy algorithm is a 2-approximation  
 
 ### K Center
-
+There is no polynomial-time solution available for this problem as the problem is a known NP-Hard problem.   
 #### Greedy Approximate Algorithm for K Centers Problem
-There is no polynomial-time solution available for this problem as the problem is a known NP-Hard problem. 
+the running time of the Greedy k-center algorithm is O(kn)  
+<img width="537" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/aaf7d3f2-ceeb-48df-9107-b26848e9613a">
+
