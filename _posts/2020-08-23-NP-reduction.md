@@ -7,13 +7,15 @@ comments: true
 author: zhang
 ---
 
-reduction (a technique usually used to show some problem is NP-hard).  
+reduction (a technique usually used to show some problem is NP-hard).   
+it's useful to know a good number of different NP-complete problems:When you encounter a new problem X and want to try proving it's NP-complete,you want to show Y<=(p)X for some known NP-complete problem Y.  
 ##### NP-hard
 problem P is NP-hard if it can be reduced from all NP problems.   
 Subset sum problem  
 Maximum 3-SAT  
 - k-center problem: reduction from dominating set or vertex cover
 Maximum Coverage problem  
+##### NP-complete 
 
 #### decision problem
 if the output is yes or no
