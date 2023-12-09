@@ -12,7 +12,7 @@ reduction (a technique usually used to show some problem is NP-hard).
 problem P is NP-hard if it can be reduced from all NP problems.   
 Subset sum problem  
 Maximum 3-SAT  
-k-center problem  
+- k-center problem: reduction from dominating set or vertex cover
 Maximum Coverage problem  
 
 #### decision problem
