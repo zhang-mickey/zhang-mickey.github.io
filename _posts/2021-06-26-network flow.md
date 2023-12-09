@@ -16,6 +16,10 @@ This is a special case of the duality theorem for linear programs
 ### Ford-Fulkerson 
 
 
+### dominating set
+a dominating set for a graph G is a subset D of its vertices, such that any vertex of G is either in D, or has a neighbor in D.   
+<img width="108" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/d78b23d8-460b-40b6-8aa9-fd3ed5a0320f">
+
 #### 2-SAT
 can be solved in polynomial time   
 
