@@ -43,6 +43,23 @@ v ∈ V is either in S or a neighbor of some s ∈ S.
 <img width="549" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/71421ca5-6026-44fe-b040-ef65da5f193e">
 #### reduction 
 
+### Independent Set (packing problem)
+pack in as many vertices as possible,subject to conflicts(edges) that try to prevent one from doings this.  
+**let G=(V,E) be a graph.Then S is an independent set if and only if its complement V-S is a vertex cover. ** 
+- Suppose that S is an independent set. Consider an arbitrary edge e=(u,v). Since S is independent,it cannot be the case that both u and v are in S.so one of them must be in V-S.  It follows that every edge has at least one end in V-S,and so V-S is a vertex cover.
+- Conversely,suppose that V-S is a vertex cover. Consider any two nodes u and v in S. If they were joined by edge e,then neither end of e would lie in V-S,contradicting our assumption that V-S is a vertex cover.
+#### proof
+If we have a black box to solve Vertex Cover,then we can decide whether G has an independent set of size at least K by asking the black box whether G has a vertex cover of size at most n-k.  
+
+
+### vertex cover(covering problem)
+**cover all the edges in the graph using as few vertices as possible.**  
+if every edge has at least one end in S  
+In a vertex cover, the vertices do the covering,and the edges are the objects being covered.  
+
+### Set cover
+Vertex Cover is a covering problem phrased specifically in the language of graphs: set cover is a more general covering problem, in which we seek to over an arbitrary set of objects using a collection of smaller sets.   
+
 ### k-center problem
 The k-center problem aims to place at most k-centers that service
 all clients, trying to minimize the service cost, which is the maximum over all
