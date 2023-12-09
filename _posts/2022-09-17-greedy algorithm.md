@@ -6,7 +6,8 @@ tags: [network]
 comments: true
 author: zhang
 ---
-
+One of the common applications of greedy
+algorithms is for producing approximation solutions to NP-hard problems
 ## Dijkstra algorithm
 
 ## Minimum spanning Tree
