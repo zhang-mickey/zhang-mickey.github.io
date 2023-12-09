@@ -11,7 +11,7 @@ algorithms is for producing approximation solutions to NP-hard problems
 ## Dijkstra algorithm
 
 ## Minimum spanning Tree
-
+there should be a path between every pair of nodes, but subject ot this requirement, build it as cheaply as possible   
 
 
 ### 坏了的计算器
