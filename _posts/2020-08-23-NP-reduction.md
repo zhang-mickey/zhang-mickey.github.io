@@ -11,6 +11,7 @@ reduction (a technique usually used to show some problem is NP-hard).
 it's useful to know a good number of different NP-complete problems:When you encounter a new problem X and want to try proving it's NP-complete,you want to show Y<=(p)X for some known NP-complete problem Y.  
 ##### NP-hard
 problem P is NP-hard if it can be reduced from all NP problems.   
+- Dominating Set: reduction form **Vertex Cover**
 Subset sum problem  
 Maximum 3-SAT  
 - k-center problem: reduction from **dominating set** or **vertex cover**  
@@ -40,6 +41,7 @@ Given an undirected graph G = (V, E) and
 bound K, we want to decide whether there exists a subset S of V of size K such that every vertex
 v ∈ V is either in S or a neighbor of some s ∈ S.  
 <img width="549" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/71421ca5-6026-44fe-b040-ef65da5f193e">
+#### reduction 
 
 ### k-center problem
 The k-center problem aims to place at most k-centers that service
