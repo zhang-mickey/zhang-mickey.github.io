@@ -12,7 +12,10 @@ algorithms is for producing approximation solutions to NP-hard problems
 
 ## Minimum spanning Tree
 there should be a path between every pair of nodes, but subject ot this requirement, build it as cheaply as possible   
-
+### Kruskal algorithm（Union-Find ）
+以边为基础，先将边从小到大排列，添加不构成环路的边  
+### Prim algorithm（priority queue）
+以点为基础，挑选与已有点相连的最小边  
 
 ### 坏了的计算器
 <img width="405" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/ed743ebe-fb0c-406f-af57-a4d5781316bb">  
