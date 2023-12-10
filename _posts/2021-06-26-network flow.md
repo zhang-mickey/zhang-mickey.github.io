@@ -15,6 +15,14 @@ This is a special case of the duality theorem for linear programs
 
 ### Ford-Fulkerson 
 
+## bipartite matching 
+<img width="500" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/a6fe0160-9351-47be-aba7-dd1270a354bb">
+
+### bipartite matching is in P
+There are a variety of polynomial-time algorithms for finding an optimal bipartite matching.   
+**A common algorithm is one that reduces the matching problem into an equivalent max-flow instance**  
+
+
 
 ### dominating set
 a dominating set for a graph G is a subset D of its vertices, such that any vertex of G is either in D, or has a neighbor in D.   
