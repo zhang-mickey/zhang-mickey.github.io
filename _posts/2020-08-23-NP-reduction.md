@@ -17,6 +17,13 @@ Maximum 3-SAT
 - k-center problem: reduction from **dominating set** or **vertex cover**  
 Maximum Coverage problem  
 ##### NP-complete 
+#### Big-O
+measure the computational efficiency algorithm as **the number of a basic operations it performs as a function of its input length**.  
+However, this function is sometimes be overly dependant on the low-level details of
+our definition of a basic operation. For example, the addition algorithm will take about three times
+more operations if it uses addition of single digit binary (i.e., base 2) numbers as a basic operation,
+as opposed to decimal (i.e., base 10) numbers.  
+<img width="393" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/f3c4a98c-dc05-41b2-81b4-e20a343b6d52">
 
 #### decision problem
 if the output is yes or no
