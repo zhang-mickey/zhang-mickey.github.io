@@ -2,7 +2,7 @@
 layout: post
 title: " queue theory "
 date:   2023-12-07
-tags: [algorithm]
+tags: [queue theory]
 comments: true
 author: zhang
 ---
