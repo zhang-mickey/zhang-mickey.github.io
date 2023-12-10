@@ -37,7 +37,9 @@ problem) in polynomial time of the input size.
 #### NP
 if given a decision instance and a solution, we can check whether this solution
 satisfies the instance in polynomial time of input size.
-
+#### P=NP?
+if P = NP then randomized algorithms would buy essentially no efficiency gains over deterministic
+algorithms
 ### APX
 A problem is APX-hard if every problem in APX can be PTAS reduced to it.  
 ## 
