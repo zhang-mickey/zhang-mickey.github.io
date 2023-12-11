@@ -1,3 +1,4 @@
+---
 layout: post
 title: " dynamic programming "
 date:   2023-12-10
