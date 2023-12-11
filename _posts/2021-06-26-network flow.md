@@ -28,7 +28,9 @@ Assumption: capacities are integer-valued.
 <img width="622" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/9d2c2500-c498-4b0b-85ad-864af18b8e34">  
 <img width="575" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/58c8a7b9-dc50-47c5-862f-b549965ba819">
 
-## bipartite matching 
+## bipartite matching  
+definition of bipartite:  
+it is one where the node set V can be partitioned into sets X and Y in such a way that every edge has one end in X and the other end in Y.  
 <img width="500" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/a6fe0160-9351-47be-aba7-dd1270a354bb">  
 <img width="399" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/be1215fb-b0dc-4097-a065-4c021e4ce2ef">  
 
@@ -54,6 +56,12 @@ a dominating set for a graph G is a subset D of its vertices, such that any vert
 can be solved in polynomial time   
 
 <img width="385" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/c75ee471-6d73-4a98-921a-e647975a149e">  
+
+### Graph color
+#### 2-color
+BFS O(m+n)
+#### A graph G is 2-colorable if and only if it is bipartite  
+#### 3-color is NP-complete 
 
 
 
