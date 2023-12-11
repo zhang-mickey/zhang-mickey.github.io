@@ -7,14 +7,20 @@ comments: true
 author: zhang
 ---
 two types: 
-- Las Vegas
-- Monte Carlo
+- Las Vegas: Time complexity is probabilistic, correctness is deterministic
+example: randomized Quicksort  
+- Monte Carlo:Time complexity is deterministic, correctness is probabilistic
+  
+<img width="419" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/10afb216-d775-4440-bc6d-1decb6fa7a1f">
+  
 <img width="269" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/e823687d-877e-4a5c-ac16-333b413a6796">
 
 Efficient deterministic algorithms that always yield the correct answer are a special case of efficient randomized algorithms that oly need to yield the correct answer with high probability.   
 证明存在某种情况或性质  
 <img width="443" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/4da99b76-0aee-4cdc-8ac3-bd2552a8bdbc">
 
+#### 
+<img width="436" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/a5c8d882-656a-45eb-9edc-88245b9bdd2e">
 
 #### probabilistic method
 use the fact that a random algorithm produces them with probability p>0 to prove the existence of certain solutions.  
@@ -27,11 +33,12 @@ use the fact that a random algorithm produces them with probability p>0 to prove
 ## Global Minimun Cut
 there is a polynomial time algorithm to find a global min-cut in an undirected graph G
 
-### contraction algorithm(Karger)
+### contraction algorithm(Karger)(Monte Carlo)
 In the following figure, contracting the edges in the specified order, will find the min-cut. Note that in this
 case, we were lucky and did not contract the edges that were in the min-cut  
 <img width="653" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/eac9451f-ad74-46cb-89e5-9540453ef666">   
-
+this may not always give the minimum cut  if the algorithm picks an edge from the actual minimum 
+cut  
 The contraction algorithm returns a min cut with prob >=2/$n^2$  
 IF we repeat the contraction algorithm $n^2$ln$n$ times,then the probability of failing to find the global min-cut is <1/$n^2$
 
@@ -60,6 +67,10 @@ the overall time complexity will be{O(n^2)}.
 #### randomized QuickSort
 O(nlog(n))<=complexity<=O(n^2)} This difference depends on the chosen pivot elements  
 <img width="341" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/39ea4fc4-fedb-4666-8341-25c285725f58">  
+#### prove that the expected running time is O(nlogn)
+<img width="422" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/6505264a-e804-4c20-9c7a-b1bdcbad96a7">
+<img width="413" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/34536c97-fdb8-4326-b9a4-fd2dbd5280d7">
+<img width="428" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/9a5cd6dc-a239-4eba-bbfe-3ef7764541f0">
 
 ### universal hashing  
 
