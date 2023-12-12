@@ -60,6 +60,11 @@ pack in as many vertices as possible,subject to conflicts(edges) that try to pre
 #### proof
 If we have a black box to solve Vertex Cover,then we can decide whether G has an independent set of size at least K by asking the black box whether G has a vertex cover of size at most n-k.  
 
+### dominating set
+<img width="533" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/09303e23-b0bd-498b-85b4-e5713bee22e2">
+
+### independent set 
+<img width="553" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/296cb4da-413e-4de0-bd63-4b7a4e1d6d54">
 
 ### vertex cover(covering problem)
 **cover all the edges in the graph using as few vertices as possible.**  
