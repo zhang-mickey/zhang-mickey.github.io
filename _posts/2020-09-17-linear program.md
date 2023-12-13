@@ -1,6 +1,6 @@
 ---
 layout: post
-title: " linear algorithm"
+title: " linear algorithm Simplex method"
 date:   2020-09-17
 tags: [network]
 comments: true
