@@ -7,7 +7,9 @@ comments: true
 author: zhang
 ---
 # ILP
+ILP is NP-hard, therefore we can reduce any NP-complete optimization problem to ILP.  
 
+the optimal solution of the LP is only better than the optimal of ILP:every feasible point from the ILP is still feasible in the LP  
 # LP
 linear programs are solvable in polynomial time  
 <img width="521" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/9abaccf3-8718-457b-ac49-87e256ae066b">
@@ -25,6 +27,12 @@ linear programs are solvable in polynomial time
 
 ## LP relaxation
 <img width="567" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/b8a33d9c-f443-4cca-b3db-0a03154df990">
+
+## Simplex method
+
+### 转轴操作
+理解为从一个顶点走向另一个顶点  
+
 
 ## knapsack problem
 <img width="571" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/e2aa6da7-7387-4c16-9981-8eb28153b2a5">
