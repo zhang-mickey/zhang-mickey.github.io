@@ -10,8 +10,15 @@ author: zhang
 ## 
 run in polynomial time  
 solves arbitrary instances of the problem  
-Finds solution that is within ratio p of optimum  
+Finds solution that is within ratio p of optimum    
+<img width="376" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/27c061db-6963-4dec-869f-6712ac32eb04">  
 
+<img width="511" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/06b7b91b-37d7-467d-9fe6-70f9b814050e">  
+
+### Knapsack  
+<img width="499" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/ad6a68bd-469e-41e1-a0ec-9a9b097efc0b">
+
+### 
 ## Load balancing  
 
 ### Greedy algorithm is a 2-approximation  
