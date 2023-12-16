@@ -17,6 +17,8 @@ Maximum 3-SAT
 - k-center problem: reduction from **dominating set** or **vertex cover**  
 Maximum Coverage problem  
 ##### NP-complete 
+<img width="354" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/f32ab8fc-dbe4-40ae-81a6-1faf7f695699">
+
 #### Big-O
 measure the computational efficiency algorithm as **the number of a basic operations it performs as a function of its input length**.  
 However, this function is sometimes be overly dependant on the low-level details of
@@ -58,7 +60,8 @@ pack in as many vertices as possible,subject to conflicts(edges) that try to pre
 - Suppose that S is an independent set. Consider an arbitrary edge e=(u,v). Since S is independent,it cannot be the case that both u and v are in S.so one of them must be in V-S.  It follows that every edge has at least one end in V-S,and so V-S is a vertex cover.
 - Conversely,suppose that V-S is a vertex cover. Consider any two nodes u and v in S. If they were joined by edge e,then neither end of e would lie in V-S,contradicting our assumption that V-S is a vertex cover.
 #### proof
-If we have a black box to solve Vertex Cover,then we can decide whether G has an independent set of size at least K by asking the black box whether G has a vertex cover of size at most n-k.  
+If we have a black box to solve Vertex Cover,then we can decide whether G has an independent set of size at least K by asking the black box whether G has a vertex cover of size at most n-k.   
+<img width="333" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/38dedd27-a4c1-4c10-8390-09b672993cb2">  
 
 ### dominating set
 <img width="533" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/09303e23-b0bd-498b-85b4-e5713bee22e2">
