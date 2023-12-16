@@ -9,6 +9,16 @@ author: zhang
 
 reduction (a technique usually used to show some problem is NP-hard).   
 it's useful to know a good number of different NP-complete problems:When you encounter a new problem X and want to try proving it's NP-complete,you want to show Y<=(p)X for some known NP-complete problem Y.  
+4 steps for reducing (decision problem) 𝐴 to problem 𝐵.  
+1. Describe the reduction itself (  i.e. the algorithm, with a call to a library
+for problem 𝐵)  
+2. Make sure the running time would be polynomial (usually skip writing
+out this step).  
+3. Argue that if the correct answer (to the instance for 𝐴) is YES, then
+our algorithm answers YES.  
+4. Argue that if the correct answer (to the instance for 𝐴) is NO, then our
+algorithm answers NO.
+
 ##### NP-hard
 problem P is NP-hard if it can be reduced from all NP problems.   
 - Dominating Set: reduction form **Vertex Cover**
