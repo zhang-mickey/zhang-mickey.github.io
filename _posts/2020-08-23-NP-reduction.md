@@ -101,3 +101,10 @@ use **dominating set**
 
 #### greedy algorithm approximation ratio 1 − 1/e.
 
+#####
+<img width="443" alt="image" src="https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/126eba5c-551f-41f4-b831-31c36e8e16b9">  
+
+#####
+
+
+
