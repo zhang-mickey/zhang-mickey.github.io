@@ -6,5 +6,10 @@ tags: [Cryptography]
 comments: true
 author: zhang
 ---
+"Coding theory and cryptography, the essentials" 
 
-sss
+Reed-Solomon codes
+
+BCH-codes
+
+linear codes
