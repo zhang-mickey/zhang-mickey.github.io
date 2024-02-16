@@ -15,6 +15,26 @@ The join operation is used to combine two or more database tables based on forei
 ![image](https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/e26302f2-c0d7-42ad-b5ca-585bb607dcfc)
 
 Reduce Side Join: As the name suggests, in the reduce side join, the reducer is responsible for performing the join operation. It is comparatively simple and easier to implement than the map side join as the sorting and shuffling phase sends the values having identical keys to the same reducer and therefore, by default, the data is organized for us.
+
+Basically, the reduce side join takes place in the following manner:
+
+Mapper reads the input data which are to be combined based on common column or join key.
+The mapper processes the input and adds a tag to the input to distinguish the input belonging from different sources or data sets or databases.
+The mapper outputs the intermediate key-value pair where the key is nothing but the join key.
+After the sorting and shuffling phase, a key and the list of values is generated for the reducer. 
+Now, the reducer joins the values present in the list with the key to give the final aggregated output.
+
+
+![image](https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/44a26303-1250-4dd3-93b7-fc58e5f68301)
+**authorID** **authorname**
+
+![image](https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/4d768783-1447-41c9-9170-3c3afe90f12d)
+
+**authorID** **year**   **bookname**  
+
+![image](https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/9f2f0a43-2fc1-455f-9bad-dcd56f6b1dfe)
+
+ 
 其主要思想如下： 在 map 阶段，map 函数同时读取两个文件 File1 和 File2，为了区分两种来源的 key/value 数 据对，对每条数据打一个标签（tag）,比如：tag=0 表示来自文件 File1，tag=2 表示来自文件 File2。即：map 阶段的主要任务是对不同文件中的数据打标签。 在 reduce 阶段，reduce 函数获取 key 相同的来自 File1 和 File2 文件的 value list， 然后对于 同一个 key，对 File1 和 File2 中的数据进行 join（笛卡尔乘积）。即：reduce 阶段进行实际的 连接操作。
 2) map side join
 
