@@ -1,15 +1,20 @@
 ---
 layout: post
 title: " JAVA"
-date:   2024-02-01
+date:   2024-02-20
 tags: [BIG DATA]
 comments: true
 author: zhang
 ---
+
+What is a Join?
+The join operation is used to combine two or more database tables based on foreign keys. In general, companies maintain separate tables for the customer and the transaction records in their database. And, many times these companies need to generate analytic reports using the data present in such separate tables. Therefore, they perform a join operation on these separate tables using a common column (foreign key), like customer id, etc., to generate a combined table. Then, they analyze this combined table to get the desired analytic reports.
 ## hadoop 实现 Join 的几种方法
 
 ### reduce side join 是一种最简单的 join 方式
+![image](https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/e26302f2-c0d7-42ad-b5ca-585bb607dcfc)
 
+Reduce Side Join: As the name suggests, in the reduce side join, the reducer is responsible for performing the join operation. It is comparatively simple and easier to implement than the map side join as the sorting and shuffling phase sends the values having identical keys to the same reducer and therefore, by default, the data is organized for us.
 其主要思想如下： 在 map 阶段，map 函数同时读取两个文件 File1 和 File2，为了区分两种来源的 key/value 数 据对，对每条数据打一个标签（tag）,比如：tag=0 表示来自文件 File1，tag=2 表示来自文件 File2。即：map 阶段的主要任务是对不同文件中的数据打标签。 在 reduce 阶段，reduce 函数获取 key 相同的来自 File1 和 File2 文件的 value list， 然后对于 同一个 key，对 File1 和 File2 中的数据进行 join（笛卡尔乘积）。即：reduce 阶段进行实际的 连接操作。
 2) map side join
 
