@@ -21,6 +21,8 @@ Reed-Solomon codes
 BCH-codes
 #### 汉明码
 ![image](https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/d83d1e14-2ab8-45d0-ae6d-0a71657b41e9)
+也就是说
+![image](https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/644ee4d1-1fc7-4e0b-8162-ddf15aaefb3b)
 
 汉明码(7,4)
 只能纠错一位，多了会confuse
