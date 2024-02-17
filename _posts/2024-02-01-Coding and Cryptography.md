@@ -12,6 +12,9 @@ covering most of Chapters 1 through 6 as well as some parts of Chapters 11 and 1
 Reed-Solomon codes
 
 BCH-codes
+汉明码
+只能纠错一位，多了会confuse
+![image](https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/ae49009e-034c-4a01-a335-91824aec8799)
 
 linear codes
 
