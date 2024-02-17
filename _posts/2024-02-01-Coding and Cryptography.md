@@ -13,8 +13,12 @@ covering most of Chapters 1 through 6 as well as some parts of Chapters 11 and 1
 
 
 #### parity matrix 
+根据parity matrix 解码
+
 1 column is not enough unless their is a column of all 0.
 2 columns are not enough unless their is a repeated column
+##### 标准型
+![image](https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/8acf2b6e-c0f1-4188-b769-86aca27f1bd5)
 
 Reed-Solomon codes
 
