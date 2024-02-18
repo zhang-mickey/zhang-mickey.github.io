@@ -66,3 +66,7 @@ Now, the reducer joins the values present in the list with the key to give the f
 
 每个 map task 都有一个内存缓冲区，
 存 储着 map 的输出结果 当缓冲区快满的时候需要将缓冲区的数据以一个临时文件的方式存放到磁盘，当整个 map task 结束后再对磁盘中这个 map task 产生的所有临时文件做合并，生成最终的正式输 出文件，然后等待 reduce task 来拉数据。
+
+
+#### 
+adoop Sequence File is a flat file structure which consists of serialized key-value pairs. 
