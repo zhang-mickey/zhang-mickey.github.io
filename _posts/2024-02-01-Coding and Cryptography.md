@@ -37,3 +37,9 @@ linear codes
 A linear code C must contain the zero word.
 
 the distance of a linear code is the weight of the nonzero code- word of least weight.
+#### minimum distance 
+change one codeword to another requires at least d bit changes
+If a code C has minimum distance d, then C can be used either to detect up to d-1 errors, or to correct up tp (d-1)/2 errors in any codeword. 
+since any d − 1 transmission errors cannot change one codeword to another.
+小例子
+![image](https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/5f4158dc-b512-4e85-8837-4f5674f2a20e)
