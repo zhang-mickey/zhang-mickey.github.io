@@ -6,6 +6,8 @@ tags: [BIG DATA]
 comments: true
 author: zhang
 ---
+
+
 ## mapper
 In a MapReduce program, the output key-value pairs from the Mapper are automatically sorted by keys
 
