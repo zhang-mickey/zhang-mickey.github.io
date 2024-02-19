@@ -13,10 +13,15 @@ covering most of Chapters 1 through 6 as well as some parts of Chapters 11 and 1
 
 
 #### parity matrix 
-根据parity matrix 解码
-
+技巧
 1 column is not enough unless their is a column of all 0.
 2 columns are not enough unless their is a repeated column
+#### Syndrome Decoding
+根据parity matrix 解码
+
+🌰
+![image](https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/fe0e62d2-6dab-4d2f-8f99-e10a539182d8)
+
 ##### 标准型
 ![image](https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/8acf2b6e-c0f1-4188-b769-86aca27f1bd5)
 
