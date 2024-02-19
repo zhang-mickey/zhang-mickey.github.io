@@ -1,6 +1,6 @@
 ---
 layout: post
-title: " JAVA"
+title: "Mapreduce"
 date:   2024-02-20
 tags: [BIG DATA]
 comments: true
