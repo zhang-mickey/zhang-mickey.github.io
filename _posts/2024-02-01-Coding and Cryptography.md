@@ -20,6 +20,7 @@ covering most of Chapters 1 through 6 as well as some parts of Chapters 11 and 1
 根据parity matrix 解码
 
 🌰
+
 ![image](https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/fe0e62d2-6dab-4d2f-8f99-e10a539182d8)
 
 ##### 标准型
