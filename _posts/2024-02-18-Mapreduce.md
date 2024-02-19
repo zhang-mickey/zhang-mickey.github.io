@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Mapreduce"
-date:   2024-02-20
+date:   2024-02-18
 tags: [BIG DATA]
 comments: true
 author: zhang
