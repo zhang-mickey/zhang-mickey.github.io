@@ -14,8 +14,14 @@ covering most of Chapters 1 through 6 as well as some parts of Chapters 11 and 1
 
 #### parity matrix 
 技巧
+
 1 column is not enough unless their is a column of all 0.
 2 columns are not enough unless their is a repeated column
+
+##### 计算 parity matrix
+
+![image](https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/1274dee9-f856-4921-9b15-f68c35f2d1ee)
+
 #### Syndrome Decoding
 根据parity matrix 解码
 
@@ -44,8 +50,12 @@ A linear code C must contain the zero word.
 
 the distance of a linear code is the weight of the nonzero code- word of least weight.
 #### minimum distance 
+
 change one codeword to another requires at least d bit changes
+
 If a code C has minimum distance d, then C can be used either to detect up to d-1 errors, or to correct up tp (d-1)/2 errors in any codeword. 
 since any d − 1 transmission errors cannot change one codeword to another.
+
 小例子
+
 ![image](https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/5f4158dc-b512-4e85-8837-4f5674f2a20e)
