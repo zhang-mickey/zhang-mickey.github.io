@@ -22,6 +22,9 @@ covering most of Chapters 1 through 6 as well as some parts of Chapters 11 and 1
 
 ![image](https://github.com/zhang-mickey/zhang-mickey.github.io/assets/145342600/1274dee9-f856-4921-9b15-f68c35f2d1ee)
 
+##### 如何根据parity matrix提取 codeword信息
+
+
 #### Syndrome Decoding
 根据parity matrix 解码
 
